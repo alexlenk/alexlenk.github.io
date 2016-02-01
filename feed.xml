@@ -3,10 +3,10 @@
   <channel>
     <title>Dr. Alexander Lenk</title>
     <description>Cloud Computing, Smart Data Technology and Standardization, Big Data, Disaster Recovery, Distributed Systems, Digitalization, Tech</description>
-    <link>http://www.lenk-net.de//</link>
-    <atom:link href="http://www.lenk-net.de//feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 20 Jan 2016 23:37:02 +0100</pubDate>
-    <lastBuildDate>Wed, 20 Jan 2016 23:37:02 +0100</lastBuildDate>
+    <link>http://www.alenk.de//</link>
+    <atom:link href="http://www.alenk.de//feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Mon, 01 Feb 2016 12:38:48 +0100</pubDate>
+    <lastBuildDate>Mon, 01 Feb 2016 12:38:48 +0100</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
@@ -145,16 +145,16 @@ tmpfs			/var/spool	tmpfs   defaults     0       0
 
 &lt;p&gt;When everything works fine you can start to reassemble the housing. I used a wire cutter to remove the plastic parts on the bottom of the housing and my Raspi A+ fits in perfectly. I then attached the Pi with the USB-cable and the step-down converter to the power source that supposed to be charging the batterie, and drilled a hole for the aux cabe. With a bit of try and error I fit everything back in the housing, was able to close the lid and when re-attaching it to the box everything worked like a charm.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://www.lenk-net.de/assets/final_open.jpg&quot; alt=&quot;This is how it should look like&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://www.alenk.de/assets/final_open.jpg&quot; alt=&quot;This is how it should look like&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;And some more pics:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://www.lenk-net.de/assets/final.jpg&quot; alt=&quot;This is how it should look like&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://www.alenk.de/assets/final.jpg&quot; alt=&quot;This is how it should look like&quot; /&gt;&lt;/p&gt;
 
 </description>
         <pubDate>Sun, 17 Jan 2016 09:52:48 +0100</pubDate>
-        <link>http://www.lenk-net.de//2016/BoseAirPlay/</link>
-        <guid isPermaLink="true">http://www.lenk-net.de//2016/BoseAirPlay/</guid>
+        <link>http://www.alenk.de//2016/BoseAirPlay/</link>
+        <guid isPermaLink="true">http://www.alenk.de//2016/BoseAirPlay/</guid>
         
         
         <category>raspi</category>

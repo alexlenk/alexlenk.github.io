@@ -3,7 +3,7 @@
   
     
     <url>
-      <loc>http://www.lenk-net.de/2016/BoseAirPlay/</loc>
+      <loc>http://www.alenk.de/2016/BoseAirPlay/</loc>
       
         <lastmod>2016-01-17T09:52:48+01:00</lastmod>
       
@@ -19,24 +19,9 @@
   
     
     <url>
-      <loc>http://www.lenk-net.de/cv/</loc>
+      <loc>http://www.alenk.de/cv/</loc>
       
-        <lastmod>2016-01-20T23:37:02+01:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>http://www.lenk-net.de/feed.xml</loc>
-      
-        <lastmod>2016-01-20T23:37:02+01:00</lastmod>
+        <lastmod>2016-02-01T12:38:48+01:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -49,24 +34,9 @@
   
     
     <url>
-      <loc>http://www.lenk-net.de/impressum/</loc>
+      <loc>http://www.alenk.de/feed.xml</loc>
       
-        <lastmod>2016-01-20T23:37:02+01:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>http://www.lenk-net.de/</loc>
-      
-        <lastmod>2016-01-20T23:37:02+01:00</lastmod>
+        <lastmod>2016-02-01T12:38:48+01:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -79,9 +49,39 @@
   
     
     <url>
-      <loc>http://www.lenk-net.de/js/main.js</loc>
+      <loc>http://www.alenk.de/impressum/</loc>
       
-        <lastmod>2016-01-20T23:37:02+01:00</lastmod>
+        <lastmod>2016-02-01T12:38:48+01:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://www.alenk.de/</loc>
+      
+        <lastmod>2016-02-01T12:38:48+01:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://www.alenk.de/js/main.js</loc>
+      
+        <lastmod>2016-02-01T12:38:48+01:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -96,9 +96,9 @@
   
     
     <url>
-      <loc>http://www.lenk-net.de/tags/</loc>
+      <loc>http://www.alenk.de/tags/</loc>
       
-        <lastmod>2016-01-20T23:37:02+01:00</lastmod>
+        <lastmod>2016-02-01T12:38:48+01:00</lastmod>
       
       
         <changefreq>monthly</changefreq>

@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <title>Adding Airplay to a Bose SoundDock Portable</title>
+  <meta name="description" content="Cloud Computing, Smart Data Technology and Standardization, Big Data, Disaster Recovery, Distributed Systems, Digitalization, Tech">
+  <meta name="author" content="Alexander Lenk">
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Dr. Alexander Lenk">
+  <meta name="twitter:description" content="Cloud Computing, Smart Data Technology and Standardization, Big Data, Disaster Recovery, Distributed Systems, Digitalization, Tech">
+
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Dr. Alexander Lenk">
+  <meta property="og:description" content="Cloud Computing, Smart Data Technology and Standardization, Big Data, Disaster Recovery, Distributed Systems, Digitalization, Tech">
+
+  <link rel="apple-touch-icon" sizes="57x57" href="/images/favicons/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/images/favicons/apple-touch-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/images/favicons/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/images/favicons/apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/images/favicons/apple-touch-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/images/favicons/apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/images/favicons/apple-touch-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/images/favicons/apple-touch-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/favicons/apple-touch-icon-180x180.png">
+  <link rel="icon" type="image/png" href="/images/favicons/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="/images/favicons/favicon-194x194.png" sizes="194x194">
+  <link rel="icon" type="image/png" href="/images/favicons/favicon-96x96.png" sizes="96x96">
+  <link rel="icon" type="image/png" href="/images/favicons/android-chrome-192x192.png" sizes="192x192">
+  <link rel="icon" type="image/png" href="/images/favicons/favicon-16x16.png" sizes="16x16">
+  <link rel="manifest" href="/images/favicons/manifest.json">
+  <link rel="shortcut icon" href="/images/favicons/favicon.ico">
+  <meta name="msapplication-TileColor" content="#ffc40d">
+  <meta name="msapplication-TileImage" content="/images/favicons/mstile-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://www.lenk-net.de//2016/BoseAirPlay/">
+  <link rel="alternate" type="application/rss+xml" title="Dr. Alexander Lenk" href="/feed.xml">
+</head>
+
+  <body>
+    <span class="mobile btn-mobile-menu">
+  <i class="icon icon-list btn-mobile-menu__icon"></i>
+  <i class="icon icon-x-circle btn-mobile-close__icon hidden"></i>
+</span>
+  
+<header class="panel-cover" style="background-image: url(/images/cover.jpg)">
+  <div class="panel-main">
+
+    <div class="panel-main__inner panel-inverted">
+    <div class="panel-main__content">
+        <a href="/" title="link to home of Dr. Alexander Lenk">
+          <img src="/images/profile.jpg" class="user-image" alt="My Profile Photo">
+          <h1 class="panel-cover__title panel-title">Dr. Alexander Lenk</h1>
+        </a>
+        <hr class="panel-cover__divider">
+        <p class="panel-cover__description">Cloud Computing, Smart Data Technology and Standardization, Big Data, Disaster Recovery, Distributed Systems, Digitalization, Tech</p>
+        <hr class="panel-cover__divider panel-cover__divider--secondary">
+
+        <div class="navigation-wrapper">
+
+          <!-- <nav class="cover-navigation cover-navigation--primary">
+            <ul class="navigation">
+              <li class="navigation__item"><a href="/#blog" title="link to Dr. Alexander Lenk blog" class="blog-button">Blog</a></li>
+            </ul>
+          </nav>-->
+
+          <nav class="cover-navigation cover-navigation--primary">
+            <ul class="navigation">
+              <li class="navigation__item"><a href="/cv/" title="link to Dr. Alexander Lenk CV" class="blog-button">CV</a></li>
+            </ul>
+          </nav>
+
+          <nav class="cover-navigation navigation--social">
+            <ul class="navigation">
+
+            
+              <!-- GitHub -->
+              <li class="navigation__item">
+                <a href="https://scholar.google.com/citations?user=wFm6WqcAAAAJ" title="Google Scholar" target="_blank">
+                  <i class="icon icon-social-scholar" style="background-image: url(/images/scholar.png);background-repeat: no-repeat; background-size: contain;background-position: center;"></i>
+                  <span class="label">Google Scholar</span>
+                </a>
+              </li>
+            
+
+            
+              <!-- LinkedIn -->
+              <li class="navigation__item">
+                <a href="https://www.linkedin.com/in/alexanderlenk" title="alexanderlenk on LinkedIn" target="_blank">
+                  <i class="icon icon-social-linkedin"></i>
+                  <span class="label">LinkedIn</span>
+                </a>
+              </li>
+            
+
+            
+              <!-- GitHub -->
+              <li class="navigation__item" >
+                <a href="https://www.xing.com/profile/Alexander_Lenk" title=“Xing Profile” target="_blank">
+                  <i class="icon icon-social-scholar" style="background-image: url(/images/xing.png);background-repeat: no-repeat; background-size: contain;background-position: center;"></i>
+                  <span class="label">Xing Profile</span>
+                </a>
+              </li>
+            
+
+            
+
+            
+              <!-- Twitter -->
+              <li class="navigation__item">
+                <a href="http://twitter.com/alex_lenk" title="@alex_lenk on Twitter" target="_blank">
+                  <i class="icon icon-social-twitter"></i>
+                  <span class="label">Twitter</span>
+                </a>
+              </li>
+            
+
+            
+              <!-- Email -->
+              <li class="navigation__item">
+                <a href="mailto:kontakt@lenk-net.de" title="Email kontakt@lenk-net.de" target="_blank">
+                  <i class="icon icon-mail"></i>
+                  <span class="label">Email</span>
+                </a>
+              </li>
+            
+
+            <!-- RSS -->
+            <!--<li class="navigation__item">
+              <a href="/feed.xml" title="Subscribe" target="_blank">
+                <i class="icon icon-rss"></i>
+                <span class="label">RSS</span>
+              </a>
+            </li>-->
+          
+            </ul>
+          </nav>
+
+        </div>
+
+      </div>
+      <div class=footer_start><a href=/impressum>Impressum</a></div> 
+    </div>
+
+    <div class="panel-cover--overlay"></div>
+  </div>
+</header>
+
+    <div class="content-wrapper">
+      <div class="content-wrapper__inner">
+        <article class="post-container post-container--single">
+  <header class="post-header">
+    <div class="post-meta">
+      <time datetime="17 Jan 2016" class="post-meta__date date">17 Jan 2016</time> &#8226; <span class="post-meta__tags">on </span>
+    </div>
+    <h1 class="post-title">Adding Airplay to a Bose SoundDock Portable</h1>
+  </header>
+
+  <section class="post">
+    <p>After having my old Bose SoundDock with an old iPhone 30pin plug standing around useless, I thought it is time to give this old device a new life and add Airplay to it.</p>
+
+<p>After some research and dissembling the box I soon figured that the best place to put the additional hardware is the battery pack, I’ve actually never needed before. I use it in my living room and therefore this battery pack is just dead weight to me but the housing is a perfect place to fit a headless Raspberry Pi A+ in. So in the following I’m describing what you need to turn the old Bose SoundDock Portable into an Airplay device.</p>
+
+<p>Requirements:</p>
+
+<ul>
+  <li>Raspberry Pi A+ with 2 GB micro SD card</li>
+  <li>Step-Down converter (20V to 5V/USB)</li>
+  <li>HifiBerry DAC+ Standard Phone</li>
+  <li>Nano Wifi Stick</li>
+  <li>3,5mm male to male aux cable (20cm)</li>
+  <li>Micro USB cable (10cm)</li>
+  <li>Soldering iron, solder wire, desoldering wick, some wires</li>
+  <li>Hot glue gun</li>
+  <li>Tools</li>
+</ul>
+
+<h1 id="dissembling-the-battery-pack">Dissembling the battery pack</h1>
+
+<p>The battery pack comes off easily by turning the lock on the back of the box. Under the sticker saying “Do not open might explode” there are 4 Torx screws that allow you to open the battery pack. <code>Disclaimer: Before opening the pack be sure that you know what you are doing and be careful. The warnings are not without any reason on there and you could harm you, the box, or others.</code> Having that said, after unscrewing the lid, the battery pack can carefully be removed from the casing (it is glued) and you can use the soldering iron to remove the plug that goes to the box from the board. Again be careful and you might wanna cut the wires coming from the battery first.</p>
+
+<p>This plug you can afterwards glue in the lid of the housing, solder to the most left and most right pin a wire, and use more glue to isolate all the pins (these pins are in the end really close to your Raspi and you don’t want to apply these 20V of the box directly to some components of it.</p>
+
+<h1 id="preparing-the-raspi">Preparing the Raspi</h1>
+
+<p>Since we’re powering the Raspi directly from the box and don’t want this box and the Raspi running all the time we want a very robust installation that has no problems with power outages. This is done by having a read only filesystem on the card. For the AirPlay client we use Shairport. Since the Raspi A+ has no network and only one USB port I highly recommend to use a USB hub or a model B for the installation.</p>
+
+<p>The general idea of the setup is:</p>
+
+<ul>
+  <li>Install Raspbian, remove unnecessary software (xserver, hwclock, swap, etc), Wifi stick, and connect it to the local WLAN</li>
+  <li>Install and Tweak Shairport Shairport</li>
+  <li>Install HifiBerry</li>
+  <li>Make the disk read only</li>
+</ul>
+
+<h2 id="install-raspbian">Install Raspbian</h2>
+
+<p>There are several good tutorials on the net how to install Raspbian, so I’m not going into any details here. Also this tutorial is based on the very good tutorials for installing Shairport of <a href="http://www.welzels.de/blog/2014/12/raspberry-pi-als-airplay-client-update/">Wel!s Blog</a> and creating a read only Raspbian installation of <a href="http://k3a.me/how-to-make-raspberrypi-truly-read-only-reliable-and-trouble-free/">K3A</a>. I just assume you have a up to date Raspbian installation and used <code>raspi-conf</code> to expand your partition to the size of the disk.</p>
+
+<p>First of all you want to get rid of all the unnecessary things [<a href="http://www.welzels.de/blog/2014/12/raspberry-pi-als-airplay-client-update/">1</a>][<a href="http://k3a.me/how-to-make-raspberrypi-truly-read-only-reliable-and-trouble-free/">2</a>]:</p>
+
+<pre><code>sudo apt-get remove x11-common x11-utils x11-xkb-utils libx11-6 lxde-common 
+sudo apt-get remove wolfram-engine triggerhappy cron anacron logrotate 
+sudo apt-get remove dphys-swapfile xserver-common lightdm fake-hwclock
+sudo apt-get autoremove
+sudo dpkg --list | grep "^rc" | cut -d " " -f 3 | xargs sudo dpkg --purge
+sudo apt-get autoclean
+sudo apt-get install busybox-syslogd ntpdate
+sudo dpkg --purge rsyslog
+</code></pre>
+
+<p>The next step is to disable the filesystem check (since you just uninstalled the hwclock), edit <code>/boot/cmdline.txt</code> and add to the end of the line [<a href="http://k3a.me/how-to-make-raspberrypi-truly-read-only-reliable-and-trouble-free/">2</a>]:</p>
+
+<pre><code>fastboot noswap
+</code></pre>
+
+<h2 id="install-and-tweak-shairport">Install and Tweak Shairport</h2>
+
+<p>Installing Shairport is pretty straight forward [<a href="http://www.welzels.de/blog/2014/12/raspberry-pi-als-airplay-client-update/">1</a>]:</p>
+
+<pre><code>git clone https://github.com/abrasive/shairport.git
+sudo apt-get install avahi-utils libssl-dev libao-dev libpulse-dev libasound2-dev
+cd shairport
+make
+sudo make install
+</code></pre>
+
+<p>Now everything is installed an you have to add the user shairport, edit the config file and make sure Shairport is started during booting [<a href="http://www.welzels.de/blog/2014/12/raspberry-pi-als-airplay-client-update/">1</a>]:</p>
+
+<pre><code>sudo adduser --system --disabled-login --ingroup audio shairport
+sudo nano /etc/default/shairport
+sudo update-rc.d shairport defaults
+</code></pre>
+
+<p>Note that the AP_NAME only allows names without any blank spaces. I didn’t like that, so I modified the file <code>/etc/init.d/shairport</code>. The general problem with this file is that the options string for executing shairport in recursively created, wich makes it really hard to escape any blanks or special characters. A quick workaround is to comment out the part where AP_NAME is added to the options sting and rather add is directly using the parameter</p>
+
+<pre><code>-name $AP_NAME
+</code></pre>
+
+<h2 id="install-hifiberry">Install HifiBerry</h2>
+
+<p>There is a tutorial available on the <a href="https://www.hifiberry.com/guides/configuring-linux-3-18-x/">HifiBerry homepage</a>. With the newest Rasbian distribution the setup, was however slightly different.</p>
+
+<p>First you wanna disable the internal sound card by blacklisting the sound card driver, so edit <code>/etc/modprobe.d/raspi-blacklist.conf</code></p>
+
+<pre><code>blacklist snd_bcm2835
+</code></pre>
+
+<p>then you need to change the dtoverlay value in the <code>/boot/config.txt</code></p>
+
+<pre><code>dtoverlay=hifiberry-dacplus
+</code></pre>
+
+<p>and create the <code>/etc/asound.conf</code>file</p>
+
+<pre><code>pcm.!default  {
+ type hw card 0
+}
+ctl.!default {
+ type hw card 0
+}
+</code></pre>
+
+<p>This should do the trick and load your HifiBerry sound card during startup.</p>
+
+<h2 id="make-the-disk-read-only">Make the disk read only</h2>
+
+<p>The last part is itself not so difficult but may result in strange behavior during startup. I had the problem that during startup my Raspi was stopping von 1,5 minutes or didn’t give the wlan0 any IPv4 address. If you run in problems like this you might want to try to remove the dhcpcd package and install connman. I also had to manually trigger the IPv4 DHCP request by adding <code>dhclient -4 wlan0</code> to <code>/etc/rc.local</code>.</p>
+
+<p>In any case you want the folders with temporary data as tmpfs mounted file systems and your /boot and / as readonly. This results in the following <code>/etc/fstab</code></p>
+
+<pre><code>proc			/proc		proc    defaults     0       0
+/dev/mmcblk0p1		/boot		vfat    defaults,ro  0       2
+/dev/mmcblk0p2		/		ext4    defaults,ro  0       1
+tmpfs			/tmp		tmpfs   defaults     0       0
+tmpfs			/var/lib/dhcp	tmpfs   defaults     0       0
+tmpfs			/var/run	tmpfs   defaults     0       0
+tmpfs			/var/lock	tmpfs   defaults     0       0
+tmpfs			/var/spool	tmpfs   defaults     0       0
+</code></pre>
+
+<h2 id="test-it">Test it</h2>
+
+<p>Now your Airplay Server should work and you are ready to test it. If there is a problem with the setup you can always make the filesystem writeable with the following command:</p>
+
+<pre><code>mount -o remount,rw /
+</code></pre>
+
+<h1 id="reassembling-the-sounddock">Reassembling the SoundDock</h1>
+
+<p>When everything works fine you can start to reassemble the housing. I used a wire cutter to remove the plastic parts on the bottom of the housing and my Raspi A+ fits in perfectly. I then attached the Pi with the USB-cable and the step-down converter to the power source that supposed to be charging the batterie, and drilled a hole for the aux cabe. With a bit of try and error I fit everything back in the housing, was able to close the lid and when re-attaching it to the box everything worked like a charm.</p>
+
+<p><img src="http://www.lenk-net.de/assets/final_open.jpg" alt="This is how it should look like" /></p>
+
+<p>And some more pics:</p>
+
+<p><img src="http://www.lenk-net.de/assets/final.jpg" alt="This is how it should look like" /></p>
+
+
+  </section>
+</article>
+      </div>
+
+      <footer class="footer">
+  <span class="footer__copyright">&copy; 2016 Alexander Lenk. All rights reserved.</span>
+</footer> 
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script type="text/javascript" src="/js/main.js"></script>
+
+    </div>
+  </body>
+</html>

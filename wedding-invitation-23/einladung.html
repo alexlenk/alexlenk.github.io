@@ -31,6 +31,10 @@ body {
   transform: rotateY(180deg);
 }
 
+.flip-card-rotate {
+  transform: rotateY(180deg);
+}
+
 .flip-card-front, .flip-card-back {
   position: absolute;
   width: 100%;
@@ -67,11 +71,17 @@ body {
 }
 
 </style>
-</head>
-<body>
+<script>
+  function doFlip() {
+    document.getElementById("flip-card-inner").classList.add('flip-card-rotate');
+  }
 
-<div class="flip-card">
-  <div class="flip-card-inner">
+</script>
+</head>
+<body onload="setTimeout(doFlip, 3000)">
+
+<div class="flip-card" id="flip-card">
+  <div class="flip-card-inner" id="flip-card-inner">
     <div class="flip-card-front">
       <img src="vorne.png" alt="Avatar" class="flip-card-img">
     </div>

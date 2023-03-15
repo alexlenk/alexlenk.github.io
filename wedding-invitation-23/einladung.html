@@ -72,15 +72,21 @@ body {
 
 </style>
 <script>
+
+
   function doFlip() {
     document.getElementById("flip-card-inner").classList.add('flip-card-rotate');
+  }
+
+  function endFlip() {
+    document.getElementById("flip-card-inner").classList.remove('flip-card-rotate');
   }
 
 </script>
 </head>
 <body onload="setTimeout(doFlip, 3000)">
 
-<div class="flip-card" id="flip-card">
+<div class="flip-card" id="flip-card" onmouseover="endFlip()">
   <div class="flip-card-inner" id="flip-card-inner">
     <div class="flip-card-front">
       <img src="vorne.png" alt="Avatar" class="flip-card-img">

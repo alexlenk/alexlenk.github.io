@@ -48,10 +48,20 @@ body {
   color: white;
   transform: rotateY(180deg);
 }
+.flip-card-img {
+  width:800px;
+  height:500px;
+}
+
 @media only screen and (max-width: 600px) {
     .flip-card {
-        background-color: transparent;
-        width: 100%;
+        width: 400px;
+        height: 250px;
+    }
+
+    .flip-card-img {
+      width: 400px;
+        height: 250px;
     }
 }
 
@@ -62,10 +72,10 @@ body {
 <div class="flip-card">
   <div class="flip-card-inner">
     <div class="flip-card-front">
-      <img src="vorne.png" alt="Avatar" style="width:800px;height:500px;">
+      <img src="vorne.png" alt="Avatar" class="flip-card-img">
     </div>
     <div class="flip-card-back">
-        <img src="hinten.png" alt="Avatar" style="width:800px;height:500px;">
+        <img src="hinten.png" alt="Avatar" class="flip-card-img">
     </div>
   </div>
 </div>
